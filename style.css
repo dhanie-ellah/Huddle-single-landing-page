@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background: url(images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(257deg, 40%, 49%);
+  max-width: 85%;
+  margin: auto;
+  height: 100vh;
+}
+
+.logo {
+  width: 15%;
+  margin-top: 25px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+}
+main .image-container {
+  width: 50%;
+}
+main .image-container img {
+  width: 100%;
+}
+main .body-text {
+  width: 50%;
+  margin-left: 50px;
+}
+main .body-text h1 {
+  font-family: "poppins";
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+main .body-text p {
+  font-family: "open sans";
+  margin-bottom: 20px;
+}
+main .body-text button {
+  background-color: white;
+  color: hsl(257deg, 40%, 49%);
+  padding: 15px 55px;
+  border: none;
+  border-radius: 30px;
+  font-family: "poppins";
+}
+main .body-text button:hover {
+  background-color: hsl(300deg, 69%, 71%);
+  color: white;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+.social-media-icons i {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  text-align: center;
+}
+.social-media-icons i:hover {
+  color: hsl(300deg, 69%, 71%);
+  border-color: hsl(300deg, 69%, 71%);
+}
+
+footer p {
+  text-align: center;
+  color: black;
+}
+footer a {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url(images/bg-mobile.svg);
+  }
+
+  .logo {
+    width: 45%;
+  }
+
+  main {
+    flex-wrap: wrap;
+  }
+  main .image-container {
+    width: 100%;
+  }
+  main .body-text {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  main .body-text h1 {
+    font-size: 15px;
+  }
+  main .body-text p {
+    font-size: 12px;
+  }
+  main .body-text button {
+    font-size: 12px;
+    padding: 10px 55px;
+  }
+
+  .social-media-icons {
+    justify-content: center;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=style.css.map */
