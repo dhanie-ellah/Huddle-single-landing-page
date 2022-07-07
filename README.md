@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://dhanie-ellah.github.io/Huddle-single-landing-page/](https://your-live-site-url.com)
+- Live Site URL: [Huddle single landing page](https://dhanie-ellah.github.io/Huddle-single-landing-page/)
 
 ### Built with
 
