@@ -27,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot%20(5).png.jpg)
+![](./images/Screenshot%20(5).png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://dhanie-ellah.github.io/Huddle-single-landing-page/](https://your-live-site-url.com)
 
 ### Built with
 
